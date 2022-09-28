@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiro B</title>
+    <script>
+        //alert("Oi, eu sou um alert");
+        //document.write("Escrevendo no corpo da pagina");
+        //console.log("sou uma mensagem de console");
+        function meChame(){
+            document.write("escrevi na sua pagina");
+            alert("veja o que eu escrevi na sua pagina");
+        }
+        function meuNome(nome){
+             document.write('<button onclick="meChame()">clique aqui</button>  oi' + nome);
 
+       }
+    </script>
+</head>
+<body>
+   
+   <button onclick="meuNome('pedrin')">Diga meu nome</button>
+
+</body>
+</html>
